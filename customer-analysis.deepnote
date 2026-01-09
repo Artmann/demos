@@ -1,0 +1,21 @@
+version: 1.0.0
+metadata:
+  createdAt: '2026-01-08T09:54:00.054Z'
+  modifiedAt: '2026-01-08T09:54:11.198Z'
+project:
+  id: 8b15ce30-95be-4075-ac5f-4fbd2a9afabe
+  name: Customer analysis
+  notebooks:
+    - blocks:
+        - blockGroup: e0e45e39-8d98-4611-b08b-a821ecc13026
+          content: ''
+          executionCount: 0
+          id: 2281d85f-022e-4d07-ac0f-b625ccb559ae
+          metadata: {}
+          outputs: []
+          sortingKey: '0'
+          type: code
+          version: 1
+      executionMode: block
+      id: bf79701a-8004-49e2-804a-9bdeae4904c5
+      name: EDA
