@@ -1,6 +1,6 @@
 metadata:
   createdAt: '2025-09-05T08:02:19.892Z'
-  modifiedAt: '2026-01-09T08:50:58.725Z'
+  modifiedAt: '2026-01-13T13:12:05.821Z'
 project:
   id: b150ea80-7d36-4a84-8fe6-4d68f92af0b0
   name: Weather analytics
@@ -1615,12 +1615,12 @@ project:
             # Configure matplotlib
             plt.style.use('seaborn-v0_8-darkgrid')
             np.random.seed(42)
-          id: 5ac96e08057c431c91b98bb58de25df0
+          id: 6356d75e5f7c8dae4faf1ebdd6b0e078
           metadata:
             execution_start: 1757059655337
             execution_millis: 1242
             execution_context_id: 40ed428b-d24e-4c73-85f1-c4c2a48af0bd
-          sortingKey: m
+          sortingKey: a1
           type: code
           contentHash: sha256:463933d928643d91da7f9d2219ab22fa7e9d59595e5100630e864a363aaae3cf
           executionCount: 1
@@ -1631,9 +1631,9 @@ project:
             ## 1. Generate Weather Data
 
             We'll create synthetic weather data for multiple cities to demonstrate our analysis pipeline.
-          id: eb69456671d54406bb45505ef7393bee
+          id: 47ad7fdf2625c5aefd8e3d9a964ffd66
           metadata: {}
-          sortingKey: s
+          sortingKey: a2
           type: markdown
           contentHash: sha256:ebae85c2ed15b1b8c3294f0dfe248e40b25e49f78adcc62bbe712940319026a1
         - blockGroup: a00b661329444d03a44a5d33fdbb8c06
@@ -1651,12 +1651,12 @@ project:
             start_date = datetime(2024, 1, 1)
             end_date = datetime(2024, 12, 31)
             date_range = pd.date_range(start=start_date, end=end_date, freq='D')
-          id: 1eb36fd87ac944888d2cd2c0fa5e60d6
+          id: 7cae62f802aa13d4e86ecf56590e1f61
           metadata:
             execution_start: 1757059656636
             execution_millis: 1
             execution_context_id: 40ed428b-d24e-4c73-85f1-c4c2a48af0bd
-          sortingKey: v
+          sortingKey: a3
           type: code
           contentHash: sha256:f3345c708dbd0539f5b2c59d76a6e5e87abd0d1ff9ec491cf4742d1218bef3f4
           executionCount: 2
@@ -1694,12 +1694,12 @@ project:
                     'humidity': humidity.round(0),
                     'precipitation': precipitation.round(1)
                 })
-          id: 01855bb648c34ac6b42face374ca9a94
+          id: d4afb837d302857a2911ca548f83f1d2
           metadata:
             execution_start: 1757059656687
             execution_millis: 0
             execution_context_id: 40ed428b-d24e-4c73-85f1-c4c2a48af0bd
-          sortingKey: x
+          sortingKey: a4
           type: code
           contentHash: sha256:30dfd5c718903765b18bcb97185478951c1e0419a2bcc798408a0ba8681f954e
           executionCount: 3
@@ -1716,12 +1716,12 @@ project:
             print(f"Generated {len(weather_data)} records for {len(cities)} cities")
             print(f"Date range: {weather_data['date'].min()} to {weather_data['date'].max()}")
             weather_data.head(10)
-          id: c0aae080eca0445f977a0b196f98d96e
+          id: 7d9bb89fba7666c3f33c7e8cacdd96af
           metadata:
             execution_start: 1757059656747
             execution_millis: 4
             execution_context_id: 40ed428b-d24e-4c73-85f1-c4c2a48af0bd
-          sortingKey: 'y'
+          sortingKey: a5
           type: code
           contentHash: sha256:9df52701df99684a2ab72660683453a50c03d09eab3f27d606a1d101393e7870
           executionCount: 4
@@ -1732,9 +1732,9 @@ project:
             ## 2. Data Quality Checks
 
             Let's verify our data quality and look for any anomalies.
-          id: a8753e4bdca541479c30ce0e99873d03
+          id: 8c53a2ee07e188db7f3f28572140e3d7
           metadata: {}
-          sortingKey: yU
+          sortingKey: a6
           type: markdown
           contentHash: sha256:b9ff8f012bc195006de60d70f64aa4b7f297bd3d136f289fb38f17d60585fdfc
         - blockGroup: 6d876c7392be4a868bd680df216d4362
@@ -1748,12 +1748,12 @@ project:
 
             print("\nBasic statistics:")
             weather_data.describe()
-          id: 26ad5e6ec95b48a8a3c5ba34f94a4ed7
+          id: 1ebe7edbc099ab0956fca2fcf080982c
           metadata:
             execution_start: 1757059656797
             execution_millis: 1
             execution_context_id: 40ed428b-d24e-4c73-85f1-c4c2a48af0bd
-          sortingKey: yj
+          sortingKey: a7
           type: code
           contentHash: sha256:800ac1b16a95b115ff92dfe054abd492266cadf2b5b85c0518f3dfe350c0b9c1
           executionCount: 5
@@ -1761,7 +1761,7 @@ project:
           executionStartedAt: '2025-12-22T14:45:58.191Z'
         - blockGroup: 14369615-d220-425a-aca3-9731b647dac7
           content: ''
-          id: dc208412350a5390898a8efa34e18e43
+          id: 2170a8addb58011ada8b41b777db6230
           metadata: {}
           sortingKey: a8
           type: markdown
@@ -1770,9 +1770,9 @@ project:
             ## 3. Initial Visualization
 
             Let's create a quick visualization to verify our data looks reasonable.
-          id: c11b0aefd9294dea8b375c59eca4653e
+          id: 1f137c1219d46be0b974aeac0e380a2c
           metadata: {}
-          sortingKey: yr
+          sortingKey: a9
           type: markdown
           contentHash: sha256:3b6474906758cf3620e492cffcaf68c05d008d7d7ba0e848618baad7420c4d11
         - blockGroup: 9851b2dbfa3745f59b0f4c23a7d338c6
@@ -1794,12 +1794,12 @@ project:
 
             plt.tight_layout()
             plt.show()
-          id: fbcb4056db7f476a9e63e1de538607d1
+          id: ef37da3713c0b9dc135947d2346bf779
           metadata:
             execution_start: 1757059656857
             execution_millis: 380
             execution_context_id: 40ed428b-d24e-4c73-85f1-c4c2a48af0bd
-          sortingKey: yv
+          sortingKey: a10
           type: code
           contentHash: sha256:f60bddc0dcfa42005708e6c01774c1a4d6322fa9594cb102ecab68a5f02414df
           executionCount: 6
@@ -1810,9 +1810,9 @@ project:
             ## 4. Save Prepared Data
 
             Export the data for use in further analysis notebooks.
-          id: 9a2671a312c34311bc6f2f661ab0de70
+          id: 33f78e203160f66c40653b5639d6600f
           metadata: {}
-          sortingKey: yx
+          sortingKey: a11
           type: markdown
           contentHash: sha256:7708f35b4df6a489540da428fb20fc278266910d659f570ba9d1880fb05b49a4
         - blockGroup: 7c49067bbdcf43c993549adeeddb9901
@@ -1831,12 +1831,12 @@ project:
 
             print("\nSummary by City:")
             summary
-          id: 9522df4586074be19252e6428efe5692
+          id: 3e82e3ff070c2c771b69dc4bae311094
           metadata:
             execution_start: 1757059657338
             execution_millis: 69
             execution_context_id: 40ed428b-d24e-4c73-85f1-c4c2a48af0bd
-          sortingKey: yy
+          sortingKey: a12
           type: code
           contentHash: sha256:f79922fc046cafd6af4e956213ac8f89a57825d8a3ffe29cbe29f9c9a2fc17be
           executionCount: 7
@@ -1850,10 +1850,229 @@ project:
   settings: {}
 version: 1.0.0
 execution:
-  finishedAt: '2025-12-22T14:45:58.351Z'
-  startedAt: '2025-12-22T14:45:57.925Z'
+  finishedAt: '2026-01-13T13:11:12.720Z'
+  startedAt: '2026-01-13T13:11:12.216Z'
   summary:
     blocksExecuted: 7
     blocksFailed: 0
     blocksSucceeded: 7
-    totalDurationMs: 426
+    totalDurationMs: 504
+  triggeredBy: user
+environment:
+  hash: sha256:7af809a082529efd81cbb486e355b9c8ec0c67abf22bdb505dd4f00e723aa91c
+  packages:
+    alembic: 1.17.1
+    altair: 5.5.0
+    annotated-types: 0.7.0
+    anyio: 4.11.0
+    appnope: 0.1.4
+    argon2-cffi: 25.1.0
+    argon2-cffi-bindings: 25.1.0
+    arro3-core: 0.6.5
+    arrow: 1.4.0
+    asn1crypto: 1.5.1
+    asttokens: 3.0.0
+    asynch: 0.3.1
+    attrs: 25.4.0
+    bcrypt: 5.0.0
+    beautifulsoup4: 4.14.2
+    black: 25.11.0
+    bleach: 6.3.0
+    blinker: 1.9.0
+    boto3: 1.40.71
+    botocore: 1.40.71
+    cachetools: 6.2.1
+    certifi: 2025.11.12
+    cffi: 1.17.1
+    charset-normalizer: 3.4.4
+    ciso8601: 2.3.3
+    click: 8.3.0
+    clickhouse-driver: 0.2.10
+    clickhouse-sqlalchemy: 0.3.2
+    comm: 0.2.3
+    contourpy: 1.3.3
+    cryptography: 44.0.3
+    cycler: 0.12.1
+    datafusion: 49.0.0
+    db-dtypes: 1.3.1
+    debugpy: 1.8.17
+    decorator: 5.2.1
+    deepnote-python-lsp-server: 1.13.1rc2
+    deepnote-sqlalchemy-redshift: 0.8.17
+    deepnote-toolkit: 1.1.0
+    deepnote_vegafusion: 2.0.8
+    defusedxml: 0.7.1
+    dill: 0.4.0
+    dnspython: 2.8.0
+    docstring-to-markdown: '0.17'
+    docutils: 0.22.4
+    duckdb: 1.4.1
+    executing: 2.2.1
+    fastjsonschema: 2.21.2
+    filelock: 3.20.0
+    fonttools: 4.61.0
+    fqdn: 1.5.1
+    fsspec: 2025.10.0
+    gitdb: 4.0.12
+    gitpython: 3.1.45
+    google-api-core: 2.28.1
+    google-auth: 2.43.0
+    google-cloud-bigquery: 3.38.0
+    google-cloud-bigquery-storage: 2.34.0
+    google-cloud-core: 2.5.0
+    google-cloud-spanner: 3.59.0
+    google-crc32c: 1.7.1
+    google-resumable-media: 2.7.2
+    googleapis-common-protos: 1.72.0
+    greenlet: 3.2.4
+    grpc-google-iam-v1: 0.14.3
+    grpc-interceptor: 0.15.4
+    grpcio: 1.76.0
+    grpcio-status: 1.71.2
+    h11: 0.16.0
+    idna: '3.11'
+    importlib_metadata: 8.7.0
+    ipykernel: 7.1.0
+    ipython: 9.7.0
+    ipython_pygments_lexers: 1.1.1
+    ipywidgets: 8.1.8
+    isoduration: 20.11.0
+    itsdangerous: 2.2.0
+    jedi: 0.19.2
+    jinja2: 3.1.6
+    jmespath: 1.0.1
+    joblib: 1.5.3
+    jsonpointer: 3.0.0
+    jsonschema: 4.25.1
+    jsonschema-specifications: 2025.9.1
+    jupyter-events: 0.12.0
+    jupyter-resource-usage: 1.2.0
+    jupyter_client: 8.6.3
+    jupyter_core: 5.9.1
+    jupyter_server: 2.17.0
+    jupyter_server_terminals: 0.5.3
+    jupyterlab_pygments: 0.3.0
+    jupyterlab_widgets: 3.0.16
+    kiwisolver: 1.4.9
+    lark: 1.3.1
+    leb128: 1.0.8
+    loro: 1.10.3
+    lz4: 4.4.5
+    mako: 1.3.10
+    marimo: 0.18.4
+    markdown: '3.10'
+    markupsafe: 3.0.3
+    matplotlib: 3.10.7
+    matplotlib-inline: 0.2.1
+    mistune: 3.1.4
+    msgspec: 0.20.0
+    mypy_extensions: 1.1.0
+    narwhals: 2.11.0
+    nbclient: 0.10.2
+    nbconvert: 7.16.6
+    nbformat: 5.10.4
+    nest-asyncio: 1.6.0
+    numpy: 2.3.4
+    packaging: '25.0'
+    pandas: 2.2.3
+    pandocfilters: 1.5.1
+    paramiko: 3.5.1
+    parso: 0.8.5
+    pathspec: 0.12.1
+    pexpect: 4.9.0
+    pg8000: 1.31.5
+    pillow: 12.0.0
+    platformdirs: 4.5.0
+    plotly: 6.5.0
+    pluggy: 1.6.0
+    prometheus_client: 0.23.1
+    prompt_toolkit: 3.0.52
+    proto-plus: 1.26.1
+    protobuf: 5.29.5
+    psutil: 7.1.3
+    psycopg2-binary: 2.9.11
+    ptyprocess: 0.7.0
+    pure_eval: 0.2.3
+    pyarrow: 21.0.0
+    pyasn1: 0.6.1
+    pyasn1_modules: 0.4.2
+    pyathena: 3.9.0
+    pycparser: '2.23'
+    pydantic: 2.12.4
+    pydantic_core: 2.41.5
+    pydeck: 0.9.1
+    pygments: 2.19.2
+    pyjwt: 2.10.1
+    pymdown-extensions: 10.19.1
+    pymongo: 4.15.4
+    pymssql: 2.3.9
+    pymysql: 1.1.2
+    pynacl: 1.6.0
+    pyopenssl: 25.1.0
+    pyparsing: 3.2.5
+    python-dateutil: 2.9.0.post0
+    python-json-logger: 4.0.0
+    python-lsp-jsonrpc: 1.1.2
+    pytokens: 0.3.0
+    pytz: '2025.2'
+    pyyaml: 6.0.3
+    pyzmq: 27.1.0
+    referencing: 0.37.0
+    requests: 2.32.5
+    rfc3339-validator: 0.1.4
+    rfc3986-validator: 0.1.1
+    rfc3987-syntax: 1.1.0
+    rpds-py: 0.28.0
+    rsa: 4.9.1
+    s3transfer: 0.14.0
+    scikit-learn: 1.8.0
+    scipy: 1.16.3
+    scramp: 1.4.6
+    send2trash: 1.8.3
+    six: 1.17.0
+    smmap: 5.0.2
+    sniffio: 1.3.1
+    snowflake-connector-python: 3.18.0
+    snowflake-sqlalchemy: 1.7.7
+    sortedcontainers: 2.4.0
+    soupsieve: '2.8'
+    sqlalchemy: 2.0.44
+    sqlalchemy-bigquery: 1.16.0
+    sqlalchemy-spanner: 1.17.1
+    sqlalchemy_dremio: 3.0.4
+    sqlparse: 0.5.3
+    sshtunnel: 0.4.0
+    stack-data: 0.6.3
+    starlette: 0.50.0
+    streamlit: 1.51.0
+    tenacity: 9.1.2
+    terminado: 0.18.1
+    threadpoolctl: 3.6.0
+    tinycss2: 1.4.0
+    toml: 0.10.2
+    tomlkit: 0.13.3
+    tornado: 6.5.2
+    traitlets: 5.14.3
+    trino: 0.330.0
+    typing-inspection: 0.4.2
+    typing_extensions: 4.15.0
+    tzdata: '2025.2'
+    tzlocal: 5.3.1
+    ujson: 5.11.0
+    uri-template: 1.3.0
+    urllib3: 2.5.0
+    uvicorn: 0.40.0
+    vl-convert-python: 1.7.0
+    wcwidth: 0.2.14
+    webcolors: 25.10.0
+    webencodings: 0.5.1
+    websocket-client: 1.9.0
+    websockets: 15.0.1
+    widgetsnbextension: 4.0.15
+    wrapt: 2.0.1
+    zipp: 3.23.0
+    zstd: 1.5.7.2
+  platform: darwin-arm64
+  python:
+    environment: venv
+    version: 3.13.9
