@@ -1,6 +1,6 @@
 metadata:
   createdAt: '2025-09-05T08:02:19.892Z'
-  modifiedAt: '2026-01-14T10:50:22.217Z'
+  modifiedAt: '2026-01-14T10:50:09.191Z'
 project:
   id: b150ea80-7d36-4a84-8fe6-4d68f92af0b0
   name: Weather analytics
@@ -437,7 +437,7 @@ project:
                   2 2024-01-03  New York         14.7      65.0            0.0      1  Winter
                   3 2024-01-04  New York         17.6      55.0            0.0      1  Winter
                   4 2024-01-05  New York         12.6      69.0            0.0      1  Winter
-              execution_count: 18
+              execution_count: 2
               output_type: execute_result
               metadata:
                 outputType: execute_result
@@ -998,7 +998,7 @@ project:
                               Spring       19.23  3.05    52.78          26.8  0.29
                               Summer        8.14  4.46    75.23         137.7  1.50
                               Winter       13.34  5.40    65.84          74.1  0.81
-              execution_count: 11
+              execution_count: 3
               output_type: execute_result
               metadata:
                 outputType: execute_result
@@ -1492,7 +1492,7 @@ project:
                   4                        18                  21  
                   0                        19                  20  
                   2                        19                  19  
-              execution_count: 14
+              execution_count: 6
               output_type: execute_result
               metadata:
                 outputType: execute_result
@@ -1904,13 +1904,13 @@ project:
   settings: {}
 version: 1.0.0
 execution:
-  finishedAt: '2026-01-14T10:50:22.152Z'
+  finishedAt: '2026-01-14T10:50:09.129Z'
   startedAt: '2026-01-14T10:50:07.615Z'
   summary:
-    blocksExecuted: 18
+    blocksExecuted: 8
     blocksFailed: 0
-    blocksSucceeded: 18
-    totalDurationMs: 14537
+    blocksSucceeded: 8
+    totalDurationMs: 1514
   triggeredBy: user
 environment:
   hash: sha256:1cfc8657751731c03e0937180f8190c8ecc2eef48c963ac5b752e8d618634135
