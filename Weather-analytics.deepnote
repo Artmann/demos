@@ -351,7 +351,6 @@ project:
           sortingKey: a1
           type: code
           contentHash: sha256:463933d928643d91da7f9d2219ab22fa7e9d59595e5100630e864a363aaae3cf
-          executionCount: 1
         - blockGroup: 4dc16a43b36343d392e30b7a0ed21bbb
           content: |-
             ## 1. Generate Weather Data
@@ -385,7 +384,6 @@ project:
           sortingKey: a3
           type: code
           contentHash: sha256:f3345c708dbd0539f5b2c59d76a6e5e87abd0d1ff9ec491cf4742d1218bef3f4
-          executionCount: 2
         - blockGroup: 32125a84808147eb91827d47528d006f
           content: |-
             def generate_weather_data(city_name, city_info, dates):
@@ -426,7 +424,6 @@ project:
           sortingKey: a4
           type: code
           contentHash: sha256:30dfd5c718903765b18bcb97185478951c1e0419a2bcc798408a0ba8681f954e
-          executionCount: 3
         - blockGroup: f834aa9755c0468698a7f6852be5ced1
           content: |-
             # Generate data for all cities
@@ -446,7 +443,6 @@ project:
           sortingKey: a5
           type: code
           contentHash: sha256:9df52701df99684a2ab72660683453a50c03d09eab3f27d606a1d101393e7870
-          executionCount: 4
         - blockGroup: dae042091dc9499e8c7f89970d8036ce
           content: |-
             ## 2. Data Quality Checks
@@ -476,7 +472,6 @@ project:
           sortingKey: a7
           type: code
           contentHash: sha256:800ac1b16a95b115ff92dfe054abd492266cadf2b5b85c0518f3dfe350c0b9c1
-          executionCount: 5
         - blockGroup: 14369615-d220-425a-aca3-9731b647dac7
           content: ''
           id: 2170a8addb58011ada8b41b777db6230
@@ -520,7 +515,6 @@ project:
           sortingKey: a10
           type: code
           contentHash: sha256:f60bddc0dcfa42005708e6c01774c1a4d6322fa9594cb102ecab68a5f02414df
-          executionCount: 6
         - blockGroup: 8e8cf192c7bb4d379fc20f6f5525d7f9
           content: |-
             ## 4. Save Prepared Data
@@ -555,7 +549,6 @@ project:
           sortingKey: a12
           type: code
           contentHash: sha256:f79922fc046cafd6af4e956213ac8f89a57825d8a3ffe29cbe29f9c9a2fc17be
-          executionCount: 7
       executionMode: block
       id: 2f925dd9f021405b96e6456f6a1b93c4
       isModule: false

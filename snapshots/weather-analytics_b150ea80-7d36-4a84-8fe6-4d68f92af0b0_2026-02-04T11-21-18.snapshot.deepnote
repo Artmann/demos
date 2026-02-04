@@ -1,6 +1,6 @@
 metadata:
   createdAt: '2025-09-05T08:02:19.892Z'
-  modifiedAt: '2026-02-04T11:21:22.885Z'
+  modifiedAt: '2026-02-04T11:21:18.203Z'
   snapshotHash: sha256:e8adf2d23e2ef4ff7589f247d3ba0ee0e5579f8a223d925f494c86b3d463f898
 project:
   id: b150ea80-7d36-4a84-8fe6-4d68f92af0b0
@@ -812,7 +812,7 @@ project:
                   7 2024-01-08  New York         16.4      66.0            0.0
                   8 2024-01-09  New York         12.9      79.0            0.0
                   9 2024-01-10  New York         16.2      58.0            0.0
-              execution_count: 11
+              execution_count: 4
               output_type: execute_result
               metadata:
                 outputType: execute_result
@@ -1161,7 +1161,7 @@ project:
                   75%    2024-10-01 00:00:00    23.600000    83.000000       0.000000
                   max    2024-12-31 00:00:00    38.700000    95.000000      29.400000
                   std                    NaN    10.704093    17.648113       2.704347
-              execution_count: 12
+              execution_count: 5
               output_type: execute_result
               metadata:
                 outputType: execute_result
@@ -1294,13 +1294,13 @@ project:
   settings: {}
 version: 1.0.0
 execution:
-  finishedAt: '2026-02-04T11:21:22.871Z'
-  startedAt: '2026-02-04T11:21:22.616Z'
+  finishedAt: '2026-02-04T11:21:18.194Z'
+  startedAt: '2026-02-04T11:21:17.610Z'
   summary:
     blocksExecuted: 7
     blocksFailed: 0
     blocksSucceeded: 7
-    totalDurationMs: 255
+    totalDurationMs: 584
   triggeredBy: user
 environment:
   hash: sha256:f45f20ffd2cc7e6d889937865a40888d55c2b78998563187d25a4e8204cac85d
