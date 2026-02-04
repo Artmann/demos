@@ -1,6 +1,7 @@
 metadata:
   createdAt: '2025-09-05T08:02:19.892Z'
-  modifiedAt: '2026-01-14T10:48:45.742Z'
+  modifiedAt: '2026-02-04T09:53:48.311Z'
+  snapshotHash: sha256:e8adf2d23e2ef4ff7589f247d3ba0ee0e5579f8a223d925f494c86b3d463f898
 project:
   id: b150ea80-7d36-4a84-8fe6-4d68f92af0b0
   name: Weather analytics
@@ -437,7 +438,7 @@ project:
                   2 2024-01-03  New York         14.7      65.0            0.0      1  Winter
                   3 2024-01-04  New York         17.6      55.0            0.0      1  Winter
                   4 2024-01-05  New York         12.6      69.0            0.0      1  Winter
-              execution_count: 2
+              execution_count: 26
               output_type: execute_result
               metadata:
                 outputType: execute_result
@@ -477,7 +478,6 @@ project:
                 'precipitation': ['sum', 'mean']
             }).round(2)
 
-            print("Seasonal Weather Patterns:")
             seasonal_stats
           id: d3ddc2d5bf0045a0b66b90a0c6dadfb4
           metadata:
@@ -486,13 +486,9 @@ project:
             execution_context_id: a02a0f52-f8e5-40c4-8d59-ab703b1aaba1
           sortingKey: 'y'
           type: code
-          contentHash: sha256:f17d0a0afbd4933cf95776915ca00fc3686858d535ae16493f7870eae6d632f7
+          contentHash: sha256:d968fb84994aaf011b6a3be6367cf1616fd632cbcc4c6b6112d042eb41995b5a
           executionCount: 3
           outputs:
-            - name: stdout
-              output_type: stream
-              text: |
-                Seasonal Weather Patterns:
             - data:
                 application/vnd.deepnote.dataframe.v3+json:
                   column_count: 5
@@ -998,7 +994,7 @@ project:
                               Spring       19.23  3.05    52.78          26.8  0.29
                               Summer        8.14  4.46    75.23         137.7  1.50
                               Winter       13.34  5.40    65.84          74.1  0.81
-              execution_count: 3
+              execution_count: 27
               output_type: execute_result
               metadata:
                 outputType: execute_result
@@ -1011,7 +1007,7 @@ project:
                 __hadOutputs: false
                 __deepnotePocket:
                   blockGroup: 46c866aa2d07450d9ddc6c4fc0e160d6
-                  contentHash: sha256:f17d0a0afbd4933cf95776915ca00fc3686858d535ae16493f7870eae6d632f7
+                  contentHash: sha256:d968fb84994aaf011b6a3be6367cf1616fd632cbcc4c6b6112d042eb41995b5a
                   executionCount: 3
                   sortingKey: 'y'
                   type: code
@@ -1181,7 +1177,7 @@ project:
 
             extreme_df = pd.DataFrame(extreme_events)
             extreme_df = extreme_df.sort_values('Total Extreme Days', ascending=False)
-            print("Extreme Weather Events by City:")
+
             extreme_df
           id: 80bc530807164709bf5b6eb0ab2e8064
           metadata:
@@ -1190,13 +1186,9 @@ project:
             execution_context_id: a02a0f52-f8e5-40c4-8d59-ab703b1aaba1
           sortingKey: yx
           type: code
-          contentHash: sha256:f9beb668d8b00f685ee40828cf383748c83a830221d37bb0b7f92679268173c0
+          contentHash: sha256:a7a3a7ff5a0e8991697cb34363e9c8eb03c179edea0811c113581efd5b85fe77
           executionCount: 6
           outputs:
-            - name: stdout
-              output_type: stream
-              text: |
-                Extreme Weather Events by City:
             - data:
                 application/vnd.deepnote.dataframe.v3+json:
                   column_count: 5
@@ -1492,7 +1484,7 @@ project:
                   4                        18                  21  
                   0                        19                  20  
                   2                        19                  19  
-              execution_count: 6
+              execution_count: 30
               output_type: execute_result
               metadata:
                 outputType: execute_result
@@ -1505,7 +1497,7 @@ project:
                 __hadOutputs: false
                 __deepnotePocket:
                   blockGroup: fc181e90dd544d7dbf9cccf5250ef596
-                  contentHash: sha256:f9beb668d8b00f685ee40828cf383748c83a830221d37bb0b7f92679268173c0
+                  contentHash: sha256:a7a3a7ff5a0e8991697cb34363e9c8eb03c179edea0811c113581efd5b85fe77
                   executionCount: 6
                   sortingKey: yx
                   type: code
@@ -1904,16 +1896,16 @@ project:
   settings: {}
 version: 1.0.0
 execution:
-  finishedAt: '2026-01-14T10:48:45.684Z'
-  startedAt: '2026-01-14T10:48:44.230Z'
+  finishedAt: '2026-02-04T09:53:48.296Z'
+  startedAt: '2026-02-04T09:53:47.496Z'
   summary:
     blocksExecuted: 8
     blocksFailed: 0
     blocksSucceeded: 8
-    totalDurationMs: 1454
+    totalDurationMs: 800
   triggeredBy: user
 environment:
-  hash: sha256:1cfc8657751731c03e0937180f8190c8ecc2eef48c963ac5b752e8d618634135
+  hash: sha256:f45f20ffd2cc7e6d889937865a40888d55c2b78998563187d25a4e8204cac85d
   packages:
     alembic: 1.17.1
     altair: 5.5.0
@@ -1984,6 +1976,8 @@ environment:
     grpcio: 1.76.0
     grpcio-status: 1.71.2
     h11: 0.16.0
+    httpcore: 1.0.9
+    httpx: 0.28.1
     idna: '3.11'
     importlib_metadata: 8.7.0
     ipykernel: 7.1.0
@@ -2027,6 +2021,7 @@ environment:
     nbformat: 5.10.4
     nest-asyncio: 1.6.0
     numpy: 2.3.4
+    ollama: 0.6.1
     packaging: '25.0'
     pandas: 2.2.3
     pandocfilters: 1.5.1
@@ -2052,8 +2047,8 @@ environment:
     pyasn1_modules: 0.4.2
     pyathena: 3.9.0
     pycparser: '2.23'
-    pydantic: 2.12.4
-    pydantic_core: 2.41.5
+    pydantic: 2.11.10
+    pydantic_core: 2.33.2
     pydeck: 0.9.1
     pygments: 2.19.2
     pyjwt: 2.10.1

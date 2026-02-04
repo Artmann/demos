@@ -1,0 +1,21 @@
+version: 1.0.0
+metadata:
+  createdAt: '2026-02-03T09:58:04.102Z'
+  modifiedAt: '2026-02-03T11:30:26.037Z'
+  snapshotHash: sha256:29d712ce3fc84661101617ad2e6dc3df766f5138f680c940d82478998454c5e8
+project:
+  id: 166625a1-ebd1-4b45-a93f-48cf5ad74447
+  name: NewProject
+  notebooks:
+    - blocks:
+        - blockGroup: e4ac0b49-6db3-4a95-9e89-d8e01c709cae
+          content: '33'
+          id: be44610e-250b-4f7f-8ced-80469f02eef5
+          metadata: {}
+          sortingKey: '0'
+          type: code
+          contentHash: sha256:c6f3ac57944a531490cd39902d0f777715fd005efac9a30622d5f5205e7f6894
+          executionCount: 0
+      executionMode: block
+      id: 43d97bc7-0c72-4984-9379-747c19cfd350
+      name: Notebook 1

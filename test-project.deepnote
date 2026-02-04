@@ -1,21 +1,32 @@
 version: 1.0.0
 metadata:
   createdAt: '2025-12-11T11:05:52.160Z'
-  modifiedAt: '2025-12-11T11:05:52.160Z'
+  modifiedAt: '2026-01-19T09:33:24.001Z'
+  snapshotHash: sha256:5499a88bb839a599bd4fa9f0439e0d59e6c2c930bc496d7053adeb5798c05f4e
 project:
   id: 13d1b3a6-df28-45a9-94c9-2877acfead1e
   name: Test Project
   notebooks:
     - blocks:
-        - blockGroup: ed5ded88-f6e3-4097-a90e-c47428e7672a
+        - blockGroup: 28ac6fb4-732f-4b97-8c27-b4006c7041d7
           content: ''
-          executionCount: 0
+          id: 80c5a0016f5a86cfb54c394380cc60a4
+          metadata:
+            deepnote_variable_name: input_1
+            deepnote_input_label: ''
+            deepnote_variable_value: Dino
+            deepnote_variable_default_value: null
+          sortingKey: a1
+          type: input-text
+          contentHash: sha256:6fb86a981cf3ed052b5105f2f35fc645da00b54f975448d2a4c346fbcaa9a46f
+        - blockGroup: ed5ded88-f6e3-4097-a90e-c47428e7672a
+          content: print(input_1)
           id: 063d1632-eb62-47b6-8870-00e09c5e7304
           metadata: {}
-          outputs: []
           sortingKey: '0'
           type: code
-          version: 1
+          contentHash: sha256:d8de0efc680099c5b4e489c46ba1ecfbd75944756093982e27c73197a38172c3
+          executionCount: 0
       executionMode: block
       id: 545b2b5a-a0b4-4d4a-a5f1-caecad826bf0
       name: Notebook 1

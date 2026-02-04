@@ -1,6 +1,7 @@
 metadata:
   createdAt: '2025-09-05T08:02:19.892Z'
-  modifiedAt: '2026-01-14T10:50:12.158Z'
+  modifiedAt: '2026-02-04T09:53:52.056Z'
+  snapshotHash: sha256:e8adf2d23e2ef4ff7589f247d3ba0ee0e5579f8a223d925f494c86b3d463f898
 project:
   id: b150ea80-7d36-4a84-8fe6-4d68f92af0b0
   name: Weather analytics
@@ -94,7 +95,6 @@ project:
                 'precipitation': ['sum', 'mean']
             }).round(2)
 
-            print("Seasonal Weather Patterns:")
             seasonal_stats
           id: d3ddc2d5bf0045a0b66b90a0c6dadfb4
           metadata:
@@ -103,7 +103,7 @@ project:
             execution_context_id: a02a0f52-f8e5-40c4-8d59-ab703b1aaba1
           sortingKey: 'y'
           type: code
-          contentHash: sha256:f17d0a0afbd4933cf95776915ca00fc3686858d535ae16493f7870eae6d632f7
+          contentHash: sha256:d968fb84994aaf011b6a3be6367cf1616fd632cbcc4c6b6112d042eb41995b5a
           executionCount: 3
         - blockGroup: 144863929db74235b1d437f3e3b30712
           content: |-
@@ -217,7 +217,7 @@ project:
 
             extreme_df = pd.DataFrame(extreme_events)
             extreme_df = extreme_df.sort_values('Total Extreme Days', ascending=False)
-            print("Extreme Weather Events by City:")
+
             extreme_df
           id: 80bc530807164709bf5b6eb0ab2e8064
           metadata:
@@ -226,7 +226,7 @@ project:
             execution_context_id: a02a0f52-f8e5-40c4-8d59-ab703b1aaba1
           sortingKey: yx
           type: code
-          contentHash: sha256:f9beb668d8b00f685ee40828cf383748c83a830221d37bb0b7f92679268173c0
+          contentHash: sha256:a7a3a7ff5a0e8991697cb34363e9c8eb03c179edea0811c113581efd5b85fe77
           executionCount: 6
         - blockGroup: 053cffe9450842e380d6a6469ca17e35
           content: |-
