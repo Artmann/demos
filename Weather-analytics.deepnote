@@ -38,7 +38,6 @@ project:
           sortingKey: m
           type: code
           contentHash: sha256:d00e7a4388a8073340025764f402e154ee5a9573debedd7f97320cfc6a0f6ca1
-          executionCount: 1
         - blockGroup: b25293b96c9c44a5a4a26894c5efb624
           content: |-
             ## 1. Load and Prepare Data
@@ -75,7 +74,6 @@ project:
           sortingKey: v
           type: code
           contentHash: sha256:60253d30f208feb95fbeddd51e409c06a0c4bb4850dea37d20fdae0a67c7ec0e
-          executionCount: 2
         - blockGroup: 41c7ec5f20bd4e5aab0d6a1d0f1f135f
           content: |-
             ## 2. Seasonal Analysis
@@ -104,7 +102,6 @@ project:
           sortingKey: 'y'
           type: code
           contentHash: sha256:d968fb84994aaf011b6a3be6367cf1616fd632cbcc4c6b6112d042eb41995b5a
-          executionCount: 3
         - blockGroup: 144863929db74235b1d437f3e3b30712
           content: |-
             # Create seasonal temperature comparison chart
@@ -135,7 +132,6 @@ project:
           sortingKey: yU
           type: code
           contentHash: sha256:6761d26e4e3c12aa697d0d65af3fdb15ce20cb4db327604e33d3f8eeaa37b01c
-          executionCount: 4
         - blockGroup: 2a7089315dfb4ce4aa475d92ca118088
           content: |-
             ## 3. Correlation Analysis
@@ -178,7 +174,6 @@ project:
           sortingKey: yr
           type: code
           contentHash: sha256:db3ce6188c2166128772a68c7e41476a98adb0a851d840dbae1d78a28dd02dba
-          executionCount: 5
         - blockGroup: 0036113c43a94e63892e61e311f4dc68
           content: |-
             ## 4. Extreme Weather Events
@@ -227,7 +222,6 @@ project:
           sortingKey: yx
           type: code
           contentHash: sha256:a7a3a7ff5a0e8991697cb34363e9c8eb03c179edea0811c113581efd5b85fe77
-          executionCount: 6
         - blockGroup: 053cffe9450842e380d6a6469ca17e35
           content: |-
             ## 5. Monthly Precipitation Patterns
@@ -271,7 +265,6 @@ project:
           sortingKey: yyU
           type: code
           contentHash: sha256:1279f7b97df277340ddf6ac1d3b452fea4c3bfce665434731632b69f82aaf8ed
-          executionCount: 7
         - blockGroup: 28c3f75e4a3a4830af8f1a886e98646b
           content: |-
             ## 6. Key Insights Summary
@@ -323,7 +316,6 @@ project:
           sortingKey: yyr
           type: code
           contentHash: sha256:da247e6040b4b2186ab2231d6a198d38867c4c0bcd182c8a2b9ea7e23fd0ad24
-          executionCount: 8
       executionMode: block
       id: ba5e4fbfd94243d38d78a73496b86607
       isModule: false
