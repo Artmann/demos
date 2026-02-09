@@ -1,0 +1,20 @@
+version: 1.0.0
+metadata:
+  createdAt: '2026-02-05T10:26:01.236Z'
+  modifiedAt: '2026-02-05T11:28:14.186Z'
+  snapshotHash: sha256:3cbcba0c2e12392179835ca25abe554fd7cb5cfbf6792006da13a5b955e23120
+project:
+  id: aae53d51-89d7-4623-a2f9-71acd37a0767
+  name: TestDirty
+  notebooks:
+    - blocks:
+        - blockGroup: d4e22730-e64b-4712-8573-9a7c11bf3563
+          content: print("ciaao")
+          id: 1edd3545-9f32-40e6-88b6-31ed2e9b57ba
+          metadata: {}
+          sortingKey: '0'
+          type: code
+          contentHash: sha256:ca72dbaa1513e0683fddc1af583baad608fd0b20325172c181f4bd03629d7e16
+      executionMode: block
+      id: 181d7b1e-ae44-4840-acf1-db817ff027c0
+      name: Notebook 1

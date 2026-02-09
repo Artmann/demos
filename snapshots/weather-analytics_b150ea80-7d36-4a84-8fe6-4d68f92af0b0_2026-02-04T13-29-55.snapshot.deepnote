@@ -1,6 +1,6 @@
 metadata:
   createdAt: '2025-09-05T08:02:19.892Z'
-  modifiedAt: '2026-02-05T10:25:55.114Z'
+  modifiedAt: '2026-02-04T13:29:55.667Z'
   snapshotHash: sha256:e8adf2d23e2ef4ff7589f247d3ba0ee0e5579f8a223d925f494c86b3d463f898
 project:
   id: b150ea80-7d36-4a84-8fe6-4d68f92af0b0
@@ -446,7 +446,7 @@ project:
                 execution_context_id: a02a0f52-f8e5-40c4-8d59-ab703b1aaba1
                 id: 397a45d99e1b489b8963ef9bc2911882
                 __deepnoteBlockId: 397a45d99e1b489b8963ef9bc2911882
-                __hadOutputs: true
+                __hadOutputs: false
                 __deepnotePocket:
                   blockGroup: 972b106245d1448195cadafc23e040c4
                   contentHash: sha256:60253d30f208feb95fbeddd51e409c06a0c4bb4850dea37d20fdae0a67c7ec0e
@@ -1000,7 +1000,7 @@ project:
                 execution_context_id: a02a0f52-f8e5-40c4-8d59-ab703b1aaba1
                 id: d3ddc2d5bf0045a0b66b90a0c6dadfb4
                 __deepnoteBlockId: d3ddc2d5bf0045a0b66b90a0c6dadfb4
-                __hadOutputs: true
+                __hadOutputs: false
                 __deepnotePocket:
                   blockGroup: 46c866aa2d07450d9ddc6c4fc0e160d6
                   contentHash: sha256:d968fb84994aaf011b6a3be6367cf1616fd632cbcc4c6b6112d042eb41995b5a
@@ -1054,7 +1054,7 @@ project:
                 execution_context_id: a02a0f52-f8e5-40c4-8d59-ab703b1aaba1
                 id: d4dee8d6e5484845bebb8ec3d1de0459
                 __deepnoteBlockId: d4dee8d6e5484845bebb8ec3d1de0459
-                __hadOutputs: true
+                __hadOutputs: false
                 __deepnotePocket:
                   blockGroup: 144863929db74235b1d437f3e3b30712
                   contentHash: sha256:6761d26e4e3c12aa697d0d65af3fdb15ce20cb4db327604e33d3f8eeaa37b01c
@@ -1120,7 +1120,7 @@ project:
                 execution_context_id: a02a0f52-f8e5-40c4-8d59-ab703b1aaba1
                 id: 78d48246dce94f38adc8e45f66aaf4ce
                 __deepnoteBlockId: 78d48246dce94f38adc8e45f66aaf4ce
-                __hadOutputs: true
+                __hadOutputs: false
                 __deepnotePocket:
                   blockGroup: fbca6533dc8a45628b578686fb57d323
                   contentHash: sha256:db3ce6188c2166128772a68c7e41476a98adb0a851d840dbae1d78a28dd02dba
@@ -1484,7 +1484,7 @@ project:
                 execution_context_id: a02a0f52-f8e5-40c4-8d59-ab703b1aaba1
                 id: 80bc530807164709bf5b6eb0ab2e8064
                 __deepnoteBlockId: 80bc530807164709bf5b6eb0ab2e8064
-                __hadOutputs: true
+                __hadOutputs: false
                 __deepnotePocket:
                   blockGroup: fc181e90dd544d7dbf9cccf5250ef596
                   contentHash: sha256:a7a3a7ff5a0e8991697cb34363e9c8eb03c179edea0811c113581efd5b85fe77
@@ -1551,7 +1551,7 @@ project:
                 execution_context_id: a02a0f52-f8e5-40c4-8d59-ab703b1aaba1
                 id: d922f8c1cb754315bf2f396b1b0b4c03
                 __deepnoteBlockId: d922f8c1cb754315bf2f396b1b0b4c03
-                __hadOutputs: true
+                __hadOutputs: false
                 __deepnotePocket:
                   blockGroup: c4f95608ee004b7da2cd31a552b66704
                   contentHash: sha256:1279f7b97df277340ddf6ac1d3b452fea4c3bfce665434731632b69f82aaf8ed
@@ -1853,13 +1853,13 @@ project:
   settings: {}
 version: 1.0.0
 execution:
-  finishedAt: '2026-02-05T10:25:55.097Z'
-  startedAt: '2026-02-05T10:25:53.647Z'
+  finishedAt: '2026-02-04T13:29:55.650Z'
+  startedAt: '2026-02-04T13:29:54.038Z'
   summary:
     blocksExecuted: 8
     blocksFailed: 0
     blocksSucceeded: 8
-    totalDurationMs: 1450
+    totalDurationMs: 1612
   triggeredBy: user
 environment:
   hash: sha256:f45f20ffd2cc7e6d889937865a40888d55c2b78998563187d25a4e8204cac85d
